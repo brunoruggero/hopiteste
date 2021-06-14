@@ -29,7 +29,6 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Home</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="<c:url value="cadastrar"/>">Cadastrar-se</a></li>                    
                     </ul>
                 </div>
@@ -47,6 +46,12 @@
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase mb-3">Visitantes Cadastrados</h2>
                 </div>
+                <div class="row mb-2 ml-1">
+		            <button title="Editar" onclick="window.location.href='cadastrar'" class="btn btn-success mb-3"  type="button">
+		                <i class="fas fa-plus mr 1"></i>
+		                Novo Visitante
+		            </button>
+	          	</div>
                 <table class="table table-hover">
                     <thead>
                       <tr>
